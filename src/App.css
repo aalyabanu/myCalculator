@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7")
+      format("svg");
+}
+.root{
+  background-color: white;
+}
+body {
+  height: 95vh;
+  width: 95vw;
+  background-color: white;
+}
+main {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px
+  ;
+}
+
+nav.navbar.navbar-expand{
+  justify-content: left;
+}
+
+.navbar-brand {
+  font-family: digital;
+
+}
+
+#calc-display {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  width: 75%;
+  height: 150px;
+  background-color: maroon;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: digital;
+  border-radius: 0.9em;
+  border-style: groove;
+  border-width: 0.2em;
+}
+#dis,
+#eq {
+  padding-right: 8%;
+}
+#dis {
+  font-size: 5vw;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+#eq {
+  font-size: 2.5vw;
+  padding-top: 20px;
+}
+.row {
+  width: 75%;
+  margin-block-start: 10px;
+}
+
+.btn.btn-outline-success {
+  color: maroon;
+  border-color: #28a745;
+  background-color: white;
+}
+
+.btn.btn-outline-success.del {
+  color: maroon;
+  border-color: firebrick;
+  background-color: white;
+}
+
+.btn.btn-outline-success.del:hover {
+  color: white;
+  border-color: white;
+  background-color: firebrick;
+}
+
+.btn.btn-outline-success.operator {
+  color: maroon;
+  border-color: #28a745;
+  font-weight: 600;
+}
+
+.btn.btn-outline-success.operator:hover {
+  color: white;
+  border-color: white;
+  background-color: teal;
+  font-weight: 600;
+}
+
+.btn.btn-outline-success.equal {
+  color: white;
+  background-color: forestgreen;
+  font-weight: 800;
+}
